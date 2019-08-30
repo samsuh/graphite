@@ -1,8 +1,8 @@
 ## Graphite
 
-Graphite is a secure, private, and encrypted alternative to Google's G-Suite. Using [Blockstack's](http://blockstack.org) developer tools and protocol, Graphite gives people control over their identity. People get all the convenience of cloud computing with none of the privacy tradeoffs.
+Graphite is a secure, private, and encrypted alternative to Google's G-Suite. Using [Blockstack's](https://blockstack.org) developer tools and protocol, Graphite gives people control over their identity. People get all the convenience of cloud computing with none of the privacy tradeoffs.
 
-Check it out at http://app.graphitedocs.com
+Check it out at https://app.graphitedocs.com
 
 Graphite is open source and available for contributions. It is also available to simple run locally. One of the exciting things about this app is you can run it (alongside Blockstack) without ever going to the Graphite URL.
 
@@ -26,7 +26,7 @@ Steps to install:
 It is possible to run Graphite locally and access Graphite Pro features. There are two options:  
 
 1. Update the code in the `src/index.js`.  Set the `axios.defaults.baseURL` to `process.env.REACT_APP_API_URL_SOCKET` (https://socket.graphitedocs.com)
-2. Clone and run the `graphite-server`. This server handles websockets and Graphire Pro requires. It is available at [https://github.com/graphite-docs/graphite-server](https://github.com/graphite-docs/graphite-server).
+2. Clone and run the `graphite-server`. This server handles websockets and Graphite Pro requires. It is available at [https://github.com/graphite-docs/graphite-server](https://github.com/graphite-docs/graphite-server).
 
 # Technical Architecture  
 There is a lot that goes into making Graphite work well while hiding the complexities of encryption behind the scenes. But at the same time, it's important to understand how that complexity works so that people can audit and adopt similar approaches elsewhere.
@@ -121,7 +121,7 @@ https://testlio.com/blog/the-ideal-bug-report/
 Please make sure you search any existing issues for the bug you would like to report before opening a new issue.
 
 #### Suggest Features
-A public roadmap will soon be up at http://graphitedocs.com, but feature requests are always welcome. To suggest a feature, please open a new issue in this format:
+A public roadmap will soon be up at https://graphitedocs.com, but feature requests are always welcome. To suggest a feature, please open a new issue in this format:
 
 Feature: [Your feature title]
 Description of the feature requests
